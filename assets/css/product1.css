@@ -1,0 +1,206 @@
+body {
+    background-color: #f9fafb;
+    color: #222222 !important;
+}
+
+.product-list-area {
+    margin-top: 65px;
+}
+
+.product-list-area .header-title {
+    color: #222222;
+}
+.product-list-area .header-body {
+    margin-top: 35px;
+}
+
+.header-title-question {
+    font-size: 16px;
+    color: #0060df !important;
+}
+
+.btn_radio1_label {
+    width: 150px;
+    color: #0060df !important;
+    border-bottom-left-radius: 0px;
+    background-image: linear-gradient(#eff0f3, #ffffff);
+    border-color: #c4cdd5 !important;
+}
+.btn_radio2_label {
+    width: 150px;
+    background-image: linear-gradient(#ffffff, #eff0f3);
+    border-color: #c4cdd5 !important;
+    border-bottom-right-radius: 0px;
+}
+
+#search_addon {
+    background-color: white;
+    border-right: 0px;
+    border-top-left-radius: 0px;
+}
+#search_addon i {
+    color: #999999;
+}
+
+.txt_search {
+    border-left: 0px;
+    border-color: #c4cdd5 !important;
+}
+
+.btn_search_category {
+    border-color: #c4cdd5;
+    background-image: linear-gradient(#ffffff, #eff0f3);
+    color: #222222 !important;
+}
+.btn_search_category:active {
+    background-image: linear-gradient(#eff0f3, #ffffff);
+    color: #6c757d;
+}
+.btn_search_category:hover, .btn_search_category:focus {
+    color: #6c757d !important;
+}
+
+.btn_install {
+    background-image: linear-gradient(#ff4747, #df4645);
+}
+.btn_install:hover {
+    background-image: linear-gradient(#df4645, #ff4747);
+}
+
+.btn_import {
+    border-color: #CED4DA !important;
+    background-image: linear-gradient(#FDFDFD, #F7F7F9, #F1F2F6);
+    color: #3F3F3F;
+}
+.btn_import:hover {
+    background-image: linear-gradient(#F1F2F6, #F7F7F9, #FDFDFD);
+    color: #3F3F3F;
+}
+
+
+
+.product-list-area .category_list {
+    padding-top: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.category_tile {
+    width:100%;
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    background-color: white;
+}
+.category_tile:hover {
+    cursor: pointer;
+    background-color: #F1F1F1;
+    color: #2F66B1;
+}
+
+
+
+.category_allmenu, .category_submenu {
+    background-color: white;
+    margin-left: 0px;
+    margin-right: 0px;
+    border: 1px solid #dee2e6;
+}
+.category_allmenu .category_title, .category_submenu .category_title {
+    list-style: none;
+    color: #222222;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0px 10px 0px;
+}
+.category_allmenu li, .category_submenu li {
+    list-style: none;
+    color: black;
+    font-size: 14px;
+    padding: 5px 0px 5px 0px;
+}
+.category_allmenu li i, .category_submenu li i {
+    color: #0B2D4E;
+}
+.category_allmenu li a, .category_submenu li a {
+    cursor: pointer;
+    color: #222222 !important;
+}
+
+/*.category_allmenu li a:hover, .category_submenu li a:hover {*/
+    /*color: #0060df !important;*/
+/*}*/
+
+.category_item a:hover {
+    color: #0060df !important;
+}
+
+.cards {
+    text-align:-webkit-center;
+
+}
+.card {
+    width: 16rem;
+    text-align:left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 0px;
+}
+.card-body {
+    padding: 15px 15px 0px 15px;
+}
+.card-body .card-title {
+    color: #222222;
+    font-size: 16px;
+}
+.card-body .price {
+    color: #f97442;
+    font-weight: bold;
+}
+.card-body .aliexpress {
+    margin-top: 17px;
+    margin-bottom: 17px;
+    color: #999999;
+}
+.card-body .mark1 {
+    font-size: 12px;
+    color: #777777;
+}
+.card-body .heart {
+    float:right;
+    font-size: 12px;
+    color: #222222;
+}
+.card-footer .provider {
+    font-size: 14px;
+    color: #999999;
+}
+
+.card-footer {
+    padding: 0px 15px 15px 15px;
+    border-top: 0px !important;
+    background-color: white;
+}
+.card-footer .bucket a {
+    float: right;
+    font-size: 14px;
+    color: #009245 !important;
+}
+.card-footer .btn_import_list_group {
+    margin-top: 15px;
+    /*width: 100%;*/
+}
+.card-footer .btn_import_list_group_text, .card-footer .btn_import_list {
+    background-color: #0060df;
+    border: 1px solid #0060df;
+    color: white;
+}
+.card-footer .btn_import_list:active {
+    background-color: #0060df;
+}
+.card-footer .btn_import_list_group_text i {
+    color: white;
+}
+.card-footer .btn_import_list_group:hover {
+    border-radius: .25rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
